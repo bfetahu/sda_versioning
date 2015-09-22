@@ -28,8 +28,7 @@ We have provided an example config file for that (versioning.config). These are 
 together with the Virtuoso installation.
 ```user``` - the user name to the ISQL (should contain admin rights)
 ```password``` - the password for the provided ISQL user
-```master_graph``` - the final graph where the SDA data resides. It has to exist in the SDA before any operation can be performed
-by the versioning tool
+```master_graph``` - the final graph where the SDA data resides. It has to exist in the SDA before any operation can be performed by the versioning tool
 ```working_graph``` - the temporary graph, which stores that data as added by other processes through the DURAARK workbench
 ```endpoint``` - the URL to the SPARQL endpoint
 ```mysql_user``` - the mysql username, in case you want to have the functionallity of interlinking buildM instances with focused

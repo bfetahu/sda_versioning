@@ -1,0 +1,10 @@
+server	sparql_server_address
+user	isql_user
+password	isql_pwd
+master_graph	final_graph
+working_graph	tmp_graph
+endpoint	sparql_url
+mysql_user	mysql_usr
+mysql_password	mysql_pwd
+mysql_database	db_name
+mysql_server	db_server

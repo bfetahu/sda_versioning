@@ -17,21 +17,32 @@ In details, the tool is run through the class SDOImport and has the following ar
 
 ####Parameters
 ```operation``` - ifc_crawl_interlink | ifc_update | help
+
 ```config```` - the path to the config file
+
 ```resource``` - a filter when considering performing the versioning for a particular resource, when empty the versioning is
 performed on all instances in the temporary graph.
 
 
 ####Configuration File
-We have provided an example config file for that (versioning.config). These are the required attributes to be updated
+We have provided an example config file for that (versioning.config). These are the required attributes to be updated.
+
 ```server``` - points to the server address where the SDA resides. A prerequisite is to be installed the ISQL, which comes 
 together with the Virtuoso installation.
+
 ```user``` - the user name to the ISQL (should contain admin rights)
+
 ```password``` - the password for the provided ISQL user
+
 ```master_graph``` - the final graph where the SDA data resides. It has to exist in the SDA before any operation can be performed by the versioning tool
+
 ```working_graph``` - the temporary graph, which stores that data as added by other processes through the DURAARK workbench
+
 ```endpoint``` - the URL to the SPARQL endpoint
+
 ```mysql_user``` - the mysql username, in case you want to have the functionallity of interlinking buildM instances with focused
 crawling datasets
+
 ```mysql_password``` - the password to the mysql user name
+
 ```mysql_server``` - the address to the mysql server.
